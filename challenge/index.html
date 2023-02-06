@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/challenge/index.js"> </script>
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="a" src="/challenge/imgch/Logo.png" alt="A de Alura">
+        <h2 class="texto" id="name">Bienvenido al Desencriptador challenge Alura</h2>
+    </header>
+    <main>
+        <section class="encriptar">
+            <h1 class="encry">Encriptador</h1>
+            <div class="textarea">
+                <textarea id="textoencriptador" required placeholder="Ingrese el texto que desea encriptar o decifrar"></textarea>
+            </div> 
+            <section class="buttons">
+                <div class="botonencriptar">
+                    <input onClick="encriptar()" class="encriptador" id='boton_encriptar' type="submit" value="Encriptar"> 
+                </div>
+                
+                <div class="botondesencriptar">
+                    <input onClick="desencriptar()" class="desencriptador" id='boton_desencriptar' type="submit" value="Desencriptar"> 
+                </div>
+            </section>
+        </section>
+    
+        <section class="mensaje">
+            <h1 class="mes">Mensaje</h1>
+            <div class="resultado">
+                 <textarea id="textoresultado" required placeholder="Mensaje"></textarea>
+                 
+                 <div class="botoncopiar">
+                     <input onClick="copiar()" calss="copia" id='boton_copiar' type="submit" value="Copiar"> 
+                 </div>
+                 <div class="botoneliminar">
+                    <input onClick="eliminar()" calss="eliminar" id='boton_eliminar' type="submit" value="Eliminar Todo"> 
+                </div>
+            </div> 
+         </section>
+    </main>
+
+    <footer>
+        <img class="latam" src="/challenge/imgch/logo-alura.png" alt="Logo Alura latam">
+        <h2>Decodificador Alura Latam Proyect &copy; Camilo Martinez</h2>
+    </footer>
+
+
+</body>
+
+</html>

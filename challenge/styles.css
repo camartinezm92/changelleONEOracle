@@ -1,0 +1,147 @@
+body{
+    background-image: url(/challenge/imgch/wall2.gif);
+    width: 100%;
+    height: 100%;
+}
+
+main,header,.buttons{
+    display: flex;
+    flex-flow: row wrap;
+}
+header{
+    /*background-image: url(/challenge/imgch/header.jpg);
+    background-color: black;*/
+    width: 100%;
+}
+
+.texto {
+    margin-left: 7%;
+    background: -webkit-linear-gradient(white,rgb(0, 0, 0));
+    font-size:3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.a{
+    height: 15%;
+}
+
+
+
+
+h1{ 
+    font-family: cursive;
+    font-size: 2rem;
+    color:white;
+    border-radius: 100%;
+    text-align: center;
+    
+}
+
+.encry{
+    /*background-image: url(/challenge/imgch/code1.gif);*/
+    background: none;
+}
+
+.mes{
+    /*background-image: url(/challenge/imgch/code2.gif);*/
+    background: none;
+}
+
+.encry:hover,.mes:hover{
+    transition: 400ms;
+    background-image:url(/challenge/imgch/code3.gif);
+}
+
+.encriptar{
+
+    width:50% auto;
+    text-align: center;
+    height: 50%;
+    margin: 3% /*arriba*/ 15% /*derecha*/ 3% /*abajo*/ 5%/*izquierda*/;
+    /*border-style: solid;
+    padding: 0 arriba-abajo 3% izquierda - derecha;
+    border-width:3px;*/
+}
+
+.mensaje{
+    width:90% auto;
+    text-align: center;
+    height: 50%;
+    margin: 3% /*arriba*/ 2% /*derecha*/ 3% /*abajo*/ 2%/*izquierda*/;
+    
+}
+
+textarea{
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height:100%;
+    width:100%;
+    height:25rem;
+    background: none;
+    color:white;
+    font-weight: bold;
+    
+}
+
+.textoresultado{
+    width: 90%;
+    background: none;
+    scale: 100% 100%;
+    background-color: transparent;
+    color: bisque;
+    font-weight: bolder;
+}
+
+.textoencriptador{
+    background:none;
+    color:aliceblue;
+    font-weight: bolder;
+}
+
+textarea:hover{
+    transition: 100000ms;
+    background-image: url(/challenge/imgch/ironman.gif);
+    background-image:center;
+}
+
+.buttons{
+    margin:auto 5rem;
+    
+}
+
+.botoncopiar{
+    margin:auto 5rem;
+   
+}
+
+#boton_encriptar,#boton_copiar,#boton_desencriptar,#boton_eliminar{
+    background-image: url(/challenge/imgch/code2.gif);
+    font-family: cursive;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-top:1rem;
+    padding:  1rem 3rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+#boton_desencriptar{
+    margin-left: 40% ;
+}
+
+#boton_encriptar:hover,#boton_copiar:hover,#boton_desencriptar:hover,#boton_eliminar:hover{
+    transition: 400ms;
+    background-image: url(/challenge/imgch/code1.gif);
+    border-radius: 90%;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-size:1rem;
+}
